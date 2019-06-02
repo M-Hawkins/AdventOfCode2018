@@ -5,7 +5,7 @@ from itertools import accumulate, cycle
 
 
 def main():
-    with open("input01.txt") as file:
+    with open("puzzleInputs/01.txt") as file:
         int_array = [int(n) for n in file.readlines()]
 
     # Part 1

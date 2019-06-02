@@ -18,7 +18,7 @@ def react_polymer(polymer):
 
 
 def main():
-    with open("input05.txt") as file:
+    with open("puzzleInputs/05.txt") as file:
         initial_polymer = file.readline()
 
     # Part 1

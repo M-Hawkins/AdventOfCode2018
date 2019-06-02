@@ -45,7 +45,7 @@ def datetime_range(nap):
 
 
 def main():
-    with open("input04.txt") as file:
+    with open("puzzleInputs/04.txt") as file:
         guard_events = file.readlines()
         guard_events.sort()
 

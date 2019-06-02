@@ -12,7 +12,7 @@ numbers_p2 = []
 def main():
     global numbers_p1
     global numbers_p2
-    with open("input08.txt") as file:
+    with open("puzzleInputs/08.txt") as file:
         inp = file.readline().split()
 
     parsed_input = [int(num) for num in inp]

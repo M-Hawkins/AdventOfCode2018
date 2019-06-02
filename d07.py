@@ -33,7 +33,7 @@ class Worker:
 
 
 def main():
-    with open("input07.txt") as file:
+    with open("puzzleInputs/07.txt") as file:
         instructions = file.readlines()
     connections = [(line[5], line[36]) for line in instructions]
 

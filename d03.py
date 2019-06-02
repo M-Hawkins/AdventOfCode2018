@@ -32,7 +32,7 @@ class ClaimCounts:
 
 
 def main():
-    with open("input03.txt") as file:
+    with open("puzzleInputs/03.txt") as file:
         claim_string_array = file.readlines()
 
     claims = []

@@ -3,7 +3,7 @@
 
 
 def main():
-    with open("input02.txt") as file:
+    with open("puzzleInputs/02.txt") as file:
         box_string_array = file.readlines()
 
     # Part 1

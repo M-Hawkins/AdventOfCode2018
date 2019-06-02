@@ -8,7 +8,7 @@ from scipy.spatial import distance
 
 
 def main():
-    target_coordinates = np.loadtxt("input06.txt", delimiter=', ')
+    target_coordinates = np.loadtxt("puzzleInputs/06.txt", delimiter=', ')
     xmin, ymin = target_coordinates.min(axis=0)
     xmax, ymax = target_coordinates.max(axis=0) + 1
     xvals = np.arange(xmin, xmax)
